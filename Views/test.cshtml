@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "testFetch.cshtml"; // Adjust this if you have a specific master layout
+}
+
+<h1>Our Products</h1>
+<div id="productList"></div>
+
+<script>
+    async function fetchProducts() {
+        try {
+            const response = await fetch("/api/products"); // Adjust the endpoint if necessary
+            if (!response.ok) {
+                throw new Error("Failed to load products");
+            }
+            const products = await response.json();
+
+            // Display the products
+            const productList = document.getElementById("productList");
+            products.forEach(product => {
+                const productItem = document.createElement("div");
+                productItem.innerHTML = `
+                    <h3>${product.productName}</h3>
+                    <p>${product.description}</p>
+                    <p>Price: $${product.price}</p>
+                    <p>Category: ${product.category}</p>
+                    <p>Stock: ${product.stockQuantity}</p>
+                `;
+                productList.appendChild(productItem);
+            });
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
+    // Call the function to fetch and display products
+    fetchProducts();
+</script>

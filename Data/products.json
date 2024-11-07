@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "DJ Controller",
+        "description": "Compact DJ controller with built-in sound card and performance pads.",
+        "price": 349.99,
+        "stockQuantity": 15,
+        "category": "DJ"
+    },
+    {
+        "id": 2,
+        "name": "Studio Monitor Speakers",
+        "description": "Pair of 5-inch studio monitors with balanced sound for music production.",
+        "price": 499.99,
+        "stockQuantity": 20,
+        "category": "Studio"
+    },
+    {
+        "id": 3,
+        "name": "Turntable",
+        "description": "High-torque direct drive turntable with adjustable pitch control.",
+        "price": 599.99,
+        "stockQuantity": 10,
+        "category": "DJ"
+    },
+    {
+        "id": 4,
+        "name": "Audio Interface",
+        "description": "2-in/2-out USB audio interface with high-resolution recording capability.",
+        "price": 129.99,
+        "stockQuantity": 30,
+        "category": "Recording"
+    },
+    {
+        "id": 5,
+        "name": "MIDI Keyboard",
+        "description": "25-key MIDI keyboard controller with drum pads and assignable knobs.",
+        "price": 149.99,
+        "stockQuantity": 25,
+        "category": "Studio"
+    },
+    {
+        "id": 6,
+        "name": "DJ Headphones",
+        "description": "Closed-back headphones with deep bass and clear highs for monitoring.",
+        "price": 79.99,
+        "stockQuantity": 50,
+        "category": "DJ Accessories"
+    },
+    {
+        "id": 7,
+        "name": "Mixer",
+        "description": "4-channel mixer with EQ, filters, and effects for seamless transitions.",
+        "price": 399.99,
+        "stockQuantity": 12,
+        "category": "DJ"
+    },
+    {
+        "id": 8,
+        "name": "Microphone",
+        "description": "Condenser microphone with high sensitivity, ideal for studio recording.",
+        "price": 199.99,
+        "stockQuantity": 40,
+        "category": "Recording"
+    },
+    {
+        "id": 9,
+        "name": "Drum Machine",
+        "description": "Portable drum machine with 16-step sequencer and classic drum sounds.",
+        "price": 249.99,
+        "stockQuantity": 18,
+        "category": "Studio"
+    },
+    {
+        "id": 10,
+        "name": "Synthesizer",
+        "description": "Analog synthesizer with powerful oscillators and filters for sound design.",
+        "price": 749.99,
+        "stockQuantity": 8,
+        "category": "Studio"
+    }
+]
